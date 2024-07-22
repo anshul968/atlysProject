@@ -34,7 +34,7 @@ const MainPage = () => {
           <div className="input-box">
             <h2>Create post</h2>
             <div className="input-area">
-              <div className="input-icon">
+              <div className="input-icons">
                 <span role="img" aria-label="Speech Balloon">
                   💬
                 </span>
@@ -58,7 +58,7 @@ const MainPage = () => {
               </div>
             </div>
             <div className="post-content">
-              <div className="input-icon">
+              <div className="input-icons">
                 <span role="img" aria-label="Hand Wave">
                   👋
                 </span>
@@ -88,7 +88,7 @@ const MainPage = () => {
               </div>
             </div>
             <div className="post-content">
-              <div className="input-icon">
+              <div className="input-icons">
                 <span role="img" aria-label="Sad Face">
                   😞
                 </span>
