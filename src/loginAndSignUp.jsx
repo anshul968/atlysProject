@@ -73,12 +73,15 @@ const LoginAndSignUpPopup = ({ onClose, onLogin }) => {
               <button className="submit-button" type="submit" onClick={onClose}>
                 Contniue
               </button>
-              <p className="text-changes">
-                Already have an account?{" "}
-                <a href="#" style={{ color: "white" }} onClick={loginPage}>
+              <div style={{ paddingRight: "50%" }} className="pass-div">
+                <h6 className="text-changes">Already have an account? </h6>
+                <h6
+                  style={{ color: "white", paddingTop: "10px" }}
+                  onClick={loginPage}
+                >
                   Login {"→"}
-                </a>
-              </p>
+                </h6>
+              </div>
             </form>
           </>
         ) : (
@@ -99,7 +102,7 @@ const LoginAndSignUpPopup = ({ onClose, onLogin }) => {
               <div className="form-group">
                 <div className="pass-div">
                   <h5 className="email-password">Password</h5>
-                  <a className="forget-password">Forgot password?</a>
+                  <h5 className="forget-password">Forgot password?</h5>
                 </div>
 
                 <input
@@ -113,12 +116,15 @@ const LoginAndSignUpPopup = ({ onClose, onLogin }) => {
               <button className="submit-button" type="submit" onClick={onClose}>
                 Login Now
               </button>
-              <p className="text-changes">
-                Not registered yet?{" "}
-                <a href="#" style={{ color: "white" }} onClick={signUpPage}>
+              <div style={{ paddingRight: "50%" }} className="pass-div">
+                <h6 className="text-changes">Not registered yet? </h6>
+                <h6
+                  style={{ color: "white", paddingTop: "10px" }}
+                  onClick={signUpPage}
+                >
                   Register {"→"}
-                </a>
-              </p>
+                </h6>
+              </div>
             </form>
           </>
         )}

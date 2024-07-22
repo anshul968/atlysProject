@@ -54,7 +54,7 @@ const MainPage = () => {
                 <h5 className="h5-info">5mins ago</h5>
               </div>
               <div className="image-div">
-                <img src={dotShape} className="dot-image" alt="Dot Image" />
+                <img src={dotShape} className="dot-images" alt="Dot" />
               </div>
             </div>
             <div className="post-content">
@@ -70,7 +70,7 @@ const MainPage = () => {
               </p>
             </div>
             <div className="comment-section">
-              <img src={chatBubble} />
+              <img src={chatBubble} alt="chat Bubble" />
               <h6>24 comments</h6>
             </div>
           </div>
@@ -83,8 +83,8 @@ const MainPage = () => {
                 <h4 className="h4-info1">Marvin McKinney</h4>
                 <h5 className="h5-info1">8mins ago • Edited </h5>
               </div>
-              <div className="image-div">
-                <img src={dotShape} className="dot-image" alt="Dot Image" />
+              <div className="images-div">
+                <img src={dotShape} className="dot-images" alt="Dot" />
               </div>
             </div>
             <div className="post-content">

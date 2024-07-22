@@ -37,7 +37,7 @@ const Login = () => {
                 <div className="form-group">
                   <div className="pass-div">
                     <h5 className="email-password">Password</h5>
-                    <a className="forget-password">Forgot password?</a>
+                    <h5 className="forget-password">Forgot password?</h5>
                   </div>
 
                   <input
@@ -50,9 +50,10 @@ const Login = () => {
                 </div>
                 <button type="submit">Login now</button>
               </form>
-              <p>
-                Not registered yet? <a href="#">Register {"→"}</a>
-              </p>
+              <div className="pass-div">
+                <h6>Not registered yet? </h6>
+                <h6> Register {"→"}</h6>
+              </div>
             </div>
           </div>
         ) : (

@@ -46,7 +46,7 @@
 }
 .pass-div {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 .forget-password {
   font-family: "Inter";
