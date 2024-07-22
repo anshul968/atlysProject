@@ -1,0 +1,114 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup {
+  backdrop-filter: blur(5px);
+}
+
+.popup-content {
+  background-color: #27292d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+  width: 463px;
+  height: auto;
+  opacity: 1;
+}
+
+.close-button {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #4a96ff;
+  color: #fff;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #4a96ff;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+.h5-tag {
+  text-align: center;
+  margin-top: 0px;
+}
+.h4-tag {
+  text-align: center;
+  color: #6b6c70;
+  font-family: "Inter";
+  margin-bottom: 5px;
+}
+.email-password {
+  color: #c5c7ca;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  margin: 4px;
+}
+.text-changes {
+  font-family: "Inter";
+  font-size: 14px;
+  color: #7f8084;
+  align-self: flex-start;
+  padding-left: 25px;
+}
+.submit-button {
+  margin-left: 20px;
+}
+.input-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  background-color: #131319;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+.pass-div {
+  display: flex;
+  flex-direction: row;
+}

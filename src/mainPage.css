@@ -1,0 +1,166 @@
+.container {
+  max-width: 800px;
+  background-color: #131319;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-family: "Inter";
+  font-size: 28px;
+  line-height: 33.89px;
+}
+.header h3 {
+  width: 580px;
+  color: #7f8084;
+  font-family: "Inter";
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.create-post {
+  margin-bottom: 20px;
+  width: 700px;
+}
+.input-box {
+  background-color: #27292d;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(53, 55, 59, 1);
+}
+.input-box h2 {
+  color: #c5c7ca;
+  font-family: "Inter";
+}
+.input-box button {
+  background-color: #4a96ff;
+  margin-left: 83%;
+  width: 111px;
+  height: 43px;
+  border-radius: 8px;
+  border-color: #4a96ff;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #191920;
+  border-radius: 10px;
+  padding-left: 10px;
+  height: 80px;
+}
+.input-icon {
+  height: 48px;
+  width: 48px;
+  border-radius: 25px;
+  background-color: #38393a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-area span {
+  font-size: 18px;
+}
+
+.input-area textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #191920;
+  resize: vertical;
+  background-color: #191920;
+  color: #7f8084;
+}
+
+.post-card {
+  margin-bottom: 20px;
+  width: 700px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user-info-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info h4 {
+  font-weight: 500;
+  color: #c5c7ca;
+}
+.user-info h5 {
+  font-weight: 500;
+  color: #c5c7ca;
+}
+
+.post-content {
+  display: flex;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #191920;
+  border-radius: 8px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.post-content p {
+  margin-bottom: 10px;
+  width: 80%;
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin-top: 0%;
+}
+.comment-section {
+  display: flex;
+  flex-direction: row;
+}
+.comment-section img {
+  padding-right: 5px;
+  height: 20px;
+  width: 20px;
+}
+.comment-section h6 {
+  margin-top: 1%;
+  color: #7f8084;
+}
+.dot-image {
+  width: 16.33px;
+  height: 3px;
+}
+.image-div {
+  margin-left: auto;
+}
+.h4-info {
+  margin-bottom: 0%;
+}
+.h5-info {
+  margin-top: 4%;
+}
+.h4-info1 {
+  font-weight: 500;
+  color: #c5c7ca;
+  margin-bottom: 0%;
+}
+.h5-info1 {
+  display: flex;
+  margin-top: 4%;
+  flex-direction: row;
+}
